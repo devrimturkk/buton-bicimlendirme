@@ -91,7 +91,7 @@ margin-top: 15px;
 
 
 .alan1{
-    background-color: aqua;
+    background-color: white;
     width: 500px; height: 100px;
     margin: auto;
     border-left-style: solid;
@@ -140,7 +140,7 @@ margin-top: 15px;
 
 .border{
     width: 1000px;
-    height: 500px;
+    height: 550px;
     background-color: lightgrey;
      margin-top: -25px;
 }
@@ -148,11 +148,43 @@ margin-top: 15px;
 
 
 
-.button2 {border-radius: 30px};
-.button8 {border: 8px solid blue;
- }
+.devre{
+
+    width: 1000px;
+    height: 550px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: -25px;
 
 
+}
+
+
+.buton6{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+
+.hov{
+    width: 1000px;
+    height: 600px;
+    background-color: lightgrey;
+     margin-top: -25px;
+}
+
+
+.btn{
+    border: 1px solid #FA7070;
+    color: #FA7070;
+}
+
+
+.btn:hover {
+    color: #fff;
+    background-color: #FA7070;
+}
 
 
 
@@ -180,23 +212,23 @@ margin-top: 15px;
 
 <div class="tanitim">
 <p class="baslik">HTML Buton Nedir ?</p>
-<p class="baslik2">HTML button etiketi, web sitelerinde tıklanabilir bir düğme oluşturmak için kullanılan bir etikettir. Bu etiket, kullanıcılara işlemler gerçekleştirmeleri için bir seçenek sunar</p>
+<p class="baslik2">HTML button etiketi, web sitelerinde tıklanabilir bir düğme oluşturmak için kullanılan bir etikettir. Bu etiket, kullanıcılara işlemler gerçekleştirmeleri için bir seçenek sunar.</p>
 </div>
 
 <div class="buton">
 
 <p class="butontanim">HTML Etiketi İle Buton Oluşturmak</p>
-
+<p style=      "Arial, Helvetica, sans-serif; font-size: 30px; color: black; ">HTML :</p>
 <img src="buton.png" alt="">
 
 
 <div class="alan1">
-    <button class="buton1">bas</button>
+    <button class="buton1">BAS</button>
 
 </div> 
 <hr/>
 
-<div class="renktanitim">  
+<div class="renktanitim" style="margin-top: -10px;">  
 
 <p class="renkyazisi"> Butona Renk Vermek</p>
 
@@ -205,15 +237,15 @@ margin-top: 15px;
 
 <img src="html1.png" alt="">
 
-<p class="css1" style="font-size: 25px;">CSS : Butonun rengini değiştirmek için background-color özelliğini kullanın </p>
+<p class="css1" style="font-size: 25px;">CSS : Butonun rengini değiştirmek için background-color özelliğini kullanın.</p>
 <img src="css1.png" alt="">
 
 
 <div class="alan1" style="margin-top: 20px;">
 
-    <button class="buton1" style="background-color: yellow;">bas</button>
-    <button class="buton1" style="background-color: red;">bas</button>
-    <button class="buton1" style="background-color: blue;">bas</button>
+    <button class="buton1" style="background-color: yellow; font-size: 20;">BAS</button>
+    <button class="buton1" style="background-color: red; font-size: 20;">BAS</button>
+    <button class="buton1" style="background-color: blue; font-size: 20;">BAS</button>
     </div>
     <hr/>
 </div>
@@ -236,9 +268,9 @@ margin-top: 15px;
 
 <div class="alan1">
 
-    <button class="buton1" style="font-size: 12px;">bas</button>
-    <button class="buton1" style="font-size: 16px;">bas</button>
-    <button class="buton1" style="font-size: 20px;">bas</button>
+    <button class="buton1" style="font-size: 20px;">BAS</button>
+    <button class="buton1" style="font-size: 40px;">BAS</button>
+    <button class="buton1" style="font-size: 60px;">BAS</button>
   
 </div>
 <hr/>
@@ -253,37 +285,74 @@ margin-top: 15px;
 
      <img src="html1.png" alt="">
 
-     <p style="font-size: 25px; color: black; font-family: Arial, Helvetica, sans-serif;">CSS: </p>
+     <p style="font-size: 25px; color: black; font-family: Arial, Helvetica, sans-serif;">CSS: Bu özelliği kullanarak butonun kenar yapısını değiştirebilirsiniz.</p>
 
+    <img src="borderresim.png" alt="" ">
+
+
+     <div class="alan1" style="margin-top: 10px;">
+
+        <button class="buton1" style="border-radius: 30px;" >BAS</button>
+        <button class="buton1" style="border: dotted;">BAS</button>
+        <button class="buton1" style="border: double;">BAS</button>
+        
+    </div>
+    <hr/>
+    </div>
+
+
+
+
+
+
+<div class="devre">
+
+
+<p style=      "Arial, Helvetica, sans-serif; font-size: 30px; color: white; margin-top: -25px;">Butonu Devre Dışı Bırakmak</p>
+
+<p style="color: black; font-size: 25px; font-family: Arial, Helvetica, sans-serif; ">HTML : </p>
+
+<img src="html1.png" alt="">
+
+<p style="color: black; font-size: 25px; font-family: Arial, Helvetica, sans-serif; ">CSS : Bu özellikle beraber butonu etkisiz bırakabilirsiniz.</p>
+<img src="devrebuton.png" alt="">
+
+<div class="alan1">
+
+    <button class="buton6" style="font-size: 30px;">BAS</button>
+    
+    
+</div>
+
+<hr />
 </div>
 
 
+
+
+
+<div class="hov"> 
+
+<p style=      "Arial, Helvetica, sans-serif; font-size: 30px; color: white; margin-top: -25px;">Butona Hover Özelliği Vermek : </p>
+
+<p style=      "Arial, Helvetica, sans-serif; font-size: 30px; color: black; margin-top: -25px; margin-top: 10px;">HTML :</p>
+
+<img src="hoverresim.png" alt="">
+
+<p style=      "Arial, Helvetica, sans-serif; font-size: 30px; color: black; margin-top: -25px; margin-top: 20px;">CSS : Bu özelliği kullanarak ufak bir animasyon ekleyebilirsiniz.</p>
+
+<img src="hovercs.png" alt="">
+
+
+<div class="alan1">
+
+    <button class="btn" style="font-size: 30px;">BAS</button>
+   
     
+</div>
 
-
-
-<button class="button8">bas</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<hr/>
+</div>
 
 </body>
 </html>
